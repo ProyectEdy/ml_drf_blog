@@ -64,7 +64,7 @@ class PostHeadingsView(ListAPIView):
     
 
 class IncrementPostClickView(APIView):
-    permission_classes = [permissions.AllowAny]
+  
     def post(self, request):
         """
         Incrementa un contador de clicks basado en su slug
